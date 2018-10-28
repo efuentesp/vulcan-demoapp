@@ -1,0 +1,8 @@
+{
+  "vulcanjs-cli": {
+    "appName": "vulcan-demoapp",
+    "isVulcan": true,
+    "packageManager": "yarn",
+    "reactExtension": "jsx"
+  }
+}
