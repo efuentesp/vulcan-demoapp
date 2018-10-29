@@ -8,7 +8,7 @@ const Categories = createCollection({
   typeName: 'Category',
   schema,
   resolvers: getDefaultResolvers({ typeName: 'Category'}),
-  //mutations: getDefaultMutations({typeName: 'Category'})
+  mutations: getDefaultMutations({typeName: 'Category'})
 });
 
 Categories.addDefaultView(terms => {

@@ -1,6 +1,25 @@
-import { addRoute } from 'meteor/vulcan:core';
+import { addRoute } from "meteor/vulcan:core";
+
 addRoute({
-    name: 'categoryselectscreen',
-    path: '/',
-    componentName: 'CategorySelectScreen'
+  name: "home",
+  path: "/",
+  componentName: "CategorySelectScreen"
+});
+
+addRoute({
+  name: "categoryselectscreen",
+  path: "/categoryselectscreen",
+  componentName: "CategorySelectScreen"
+});
+
+addRoute({
+  name: "productselectscreen",
+  path: "/productselectscreen",
+  componentName: "ProductSelectScreen"
+});
+
+addRoute({
+  name: "ProductDetails",
+  path: "/productdetailsscreen/:id",
+  componentName: "ProductDetails"
 });

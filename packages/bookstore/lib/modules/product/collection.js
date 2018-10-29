@@ -8,7 +8,7 @@ const Products = createCollection({
   typeName: 'Product',
   schema,
   resolvers: getDefaultResolvers({ typeName: 'Product'}),
-  //mutations: getDefaultMutations({typeName: 'Product'})
+  mutations: getDefaultMutations({typeName: 'Product'})
 });
 
 Products.addDefaultView(terms => {

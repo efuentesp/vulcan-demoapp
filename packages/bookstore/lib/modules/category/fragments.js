@@ -1,8 +1,10 @@
 import { registerFragment } from 'meteor/vulcan:core';
 
 registerFragment(`
-   fragment CategoriesFragment on Category {
+   fragment CategoryItemFragment on Category {
      _id
      createdAt
+     name
+     photo
    }
 `);

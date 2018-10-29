@@ -1,8 +1,13 @@
-import { registerFragment } from 'meteor/vulcan:core';
+import { registerFragment } from "meteor/vulcan:core";
 
 registerFragment(`
-   fragment ProductsFragment on Product {
+   fragment ProductItemFragment on Product {
      _id
-     createdAt
+     createdAt,
+     sku,
+     name,
+     description,
+     price,
+     photo
    }
 `);
